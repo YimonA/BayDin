@@ -14,6 +14,7 @@ import {
 import { Link, useNavigate } from "react-router-dom";
 import { useContextCustom } from "../context/stateContext";
 import toast, { Toaster } from "react-hot-toast";
+import {GiEmptyHourglass} from 'react-icons/gi'
 
 const Home = () => {
   const { qNO, setQNO } = useContextCustom();
@@ -39,8 +40,8 @@ const Home = () => {
   if (isLoading) {
     return (
       <div className=" flex justify-center items-center w-screen h-screen">
-        {/* <Loader variant="dots" /> */}
-        <p>Loading...</p>
+        <GiEmptyHourglass className=" animate-spin mr-2" size={'3rem'}/>
+        <p className=" font-semibold text-3xl text-center animate-plus	">Loading...</p>
       </div>
     );
   }
