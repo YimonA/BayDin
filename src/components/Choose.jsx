@@ -88,7 +88,7 @@ const Choose = () => {
         </button>
       </div>
       {/* choose */}
-      <p className="md:hidden font-bold text-3xl text-center mb-3 ">
+      <p className="md:hidden font-bold text-3xl text-center mb-3 mx-auto">
         Choose One
       </p>
       <div className="w-full md:w-[450px] lg:w-[630px] 2xl:w-[720px] flex flex-wrap justify-center items-center mx-auto">
