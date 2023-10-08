@@ -102,7 +102,7 @@ const Home = () => {
         </button>
       </div>
       {/* search result */}
-      <div className="w-full h-[85%] overflow-auto scrollbar-thin scrollbar-thumb-zin-200 scrollbar-track-slate-500 border border-black mb-5">
+      <div className="w-full h-[85%] overflow-y-scroll scrollbar-thin scrollbar-thumb-zinc-700 scrollbar-track-zinc-300 border border-black mb-5">
         {rows}
       </div>
 

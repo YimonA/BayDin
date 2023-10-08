@@ -70,10 +70,10 @@ const Choose = () => {
 
   return (
     <div className=" container w-screen h-screen mx-auto py-10 lg:py-5 px-5">
-      <div className=" flex justify-between items-center">
+      <div className=" flex justify-between items-center mb-3">
         <button
           onClick={backHandler}
-          className="block  w-20 h-10 rounded-lg p-2 bg-black text-white mb-10"
+          className="block  w-20 h-10 rounded-lg p-2 bg-black text-white"
         >
           Back
         </button>
@@ -82,7 +82,7 @@ const Choose = () => {
         </p>
         <button
           onClick={GoHandler}
-          className="w-20 h-10 rounded-lg p-2 bg-black text-white mb-10 md:hidden lg:hidden xl:block 2xl:hidden"
+          className="w-20 h-10 rounded-lg p-2 bg-black text-white md:hidden lg:hidden xl:block 2xl:hidden"
         >
           Go
         </button>
