@@ -79,7 +79,7 @@ const Home = () => {
   };
 
   return (
-    <div className="w-screen container mx-auto py-10 min-h-screen px-5">
+    <div className="w-screen container mx-auto py-10 h-screen px-5">
       <p className=" font-bold text-3xl text-center mb-5 md:mb-7">
         Choose Question
       </p>

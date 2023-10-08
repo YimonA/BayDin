@@ -44,7 +44,7 @@ const Choose = () => {
         break;
     }
   };
-  
+
   const backHandler = (e) => {
     e.preventDefault();
     setAnsNo(null);
@@ -69,7 +69,7 @@ const Choose = () => {
   };
 
   return (
-    <div className=" container w-screen mx-auto py-10 px-5">
+    <div className=" container w-screen h-screen mx-auto py-10 lg:py-5 px-5">
       <div className=" flex justify-between items-center">
         <button
           onClick={backHandler}
