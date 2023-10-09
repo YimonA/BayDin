@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.mycontent:hover{
+    animation-name: tomove;
+    animation-duration: 7s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+@keyframes tomove{
+    0%{
+        transform:translateX(0px);
+    }
+    50%{
+        transform: translateX(-1350px);
+    }
+    80%{
+        transform: translateX(500px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}

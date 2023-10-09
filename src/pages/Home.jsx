@@ -40,8 +40,8 @@ const Home = () => {
   if (isLoading) {
     return (
       <div className=" flex justify-center items-center w-screen h-screen">
-        <GiEmptyHourglass className=" animate-spin mr-2" size={'3rem'}/>
-        <p className=" font-semibold text-3xl text-center animate-plus	">Loading...</p>
+        <GiEmptyHourglass className=" animate-spin mr-2" size={'2rem'}/>
+        <p className=" font-semibold text-2xl text-center animate-plus	">Loading...</p>
       </div>
     );
   }
@@ -61,10 +61,10 @@ const Home = () => {
           key={q?.questionNo}
           className=" flex cursor-pointer border border-gray-400  bg-black text-white hover:bg-zinc-900"
         >
-          <span className=" w-20 h-20 flex justify-center items-center cursor-pointer select-none">
+          <span className="w-10 md:w-20 h-20 flex justify-center items-center cursor-pointer select-none py-3">
             {q?.questionNo}
           </span>
-          <span className="w-full h-20 flex justify-start items-center px-3 cursor-pointer select-none">
+          <span className="w-full h-20 flex justify-start items-center px-3 py-3 cursor-pointer select-none overflow-hidden mycontent">
             {q?.questionName}
           </span>
         </div>

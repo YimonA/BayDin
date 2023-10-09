@@ -82,7 +82,7 @@ const Choose = () => {
         </p>
         <button
           onClick={GoHandler}
-          className="w-20 h-10 rounded-lg p-2 bg-black text-white md:hidden lg:hidden xl:block 2xl:hidden"
+          className="w-20 h-10 rounded-lg p-2 bg-black text-white md:opacity-0 lg:opacity-0 xl:block 2xl:opacity-0"
         >
           Go
         </button>
