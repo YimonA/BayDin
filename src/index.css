@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-.mycontent:hover{
+/* .mycontent:hover{
     animation-name: tomove;
     animation-duration: 7s;
     animation-timing-function: ease-out;
@@ -24,4 +24,4 @@
     100%{
         transform: translateX(0px);
     }
-}
+} */

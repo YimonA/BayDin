@@ -61,10 +61,10 @@ const Home = () => {
           key={q?.questionNo}
           className=" flex cursor-pointer border border-gray-400  bg-black text-white hover:bg-zinc-900"
         >
-          <span className="w-10 md:w-28 h-20 md:h-20 flex justify-center items-center cursor-pointer select-none py-3 text-[12px] md:text-[16px]">
+          <span className="w-10 md:w-28 py-3 flex justify-center items-center cursor-pointer select-none text-[12px] md:text-[16px]">
             {q?.questionNo}
           </span>
-          <span className="w-full h-28 md:h-20 flex justify-start items-center px-3 py-3 cursor-pointer select-none overflow-hidden mycontent text-[12px] md:text-[16px]">
+          <span className="w-full flex justify-start items-center px-3 py-3 cursor-pointer overflow-hidden mycontent text-[12px] md:text-[16px]">
             {q?.questionName}
           </span>
         </div>

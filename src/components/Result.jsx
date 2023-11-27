@@ -34,7 +34,7 @@ const Result = () => {
       </button>
       <div className="w-full md:w-[500px] mx-auto">
       <p className=" font-bold text-xl mb-2">Question</p>
-      <p className=" mb-5 cursor-pointer ">{questions[qNO+1]?.questionName}</p>
+      <p className=" mb-5 cursor-pointer py-2">{questions[qNO+1]?.questionName}</p>
       <p className=" font-bold text-xl mb-3 md:mb-7">Answer</p>
       <div className="w-full h-[100px] mb-5 border border-black p-3">
         {findAnswerHandler

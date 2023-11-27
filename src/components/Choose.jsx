@@ -82,7 +82,7 @@ const Choose = () => {
         </p>
         <button
           onClick={GoHandler}
-          className="w-20 h-10 rounded-lg p-2 bg-black text-white md:opacity-0 lg:opacity-0 xl:block 2xl:opacity-0"
+          className="w-20 h-10 rounded-lg p-2 bg-black text-white md:opacity-0 lg:opacity-100 xl:opacity-100 2xl:opacity-0"
         >
           Go
         </button>
@@ -104,13 +104,13 @@ const Choose = () => {
           );
         })}
       </div>
-      <div className="hidden md:block lg:block xl:hidden 2xl:block w-[500px] mx-auto pt-10">
+      <div className="hidden md:block lg:hidden xl:hidden 2xl:block w-[500px] mx-auto pt-10">
         <p className=" font-bold text-xl mb-2">Question</p>
         <p className=" mb-5 cursor-pointer ">
           {questions[qNO + 1]?.questionName}
         </p>
         <p className=" font-bold text-xl mb-3 md:mb-7">Answer</p>
-        <div className="w-full md:w-[500px] h-[100px] mb-5 border border-black p-3">
+        <div className="w-full md:w-[500px] mb-5 border border-black p-3">
           {findAnswerHandler
             ? findAnswerHandler?.answerResult
             : "There is no result"}
