@@ -81,15 +81,15 @@ const Home = () => {
 
   return (
     <div className="w-screen container mx-auto py-10 h-screen px-5">
-      <p className=" font-bold text-3xl text-center mb-5 md:mb-7">
+      <p className=" font-bold text-3xl text-center mb-5 md:mb-7 lg:mb-3">
         Choose Question
       </p>
 
       {/* search */}
-      <div className="flex justify-between items-center mb-5 md:mb-7 ">
+      <div className="flex justify-between items-center gap-5 mb-5 md:mb-7 ">
         <input
           type="text"
-          className="w-[220px] md:w-[80%] h-10 p-5 border-2 border-black rounded-lg "
+          className="w-full h-10 p-5 border-2 border-black rounded-lg "
           variant="filled"
           placeholder="Search"
           value={searchTerm}

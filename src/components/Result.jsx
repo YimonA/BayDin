@@ -36,7 +36,7 @@ const Result = () => {
       <p className=" font-bold text-xl mb-2">Question</p>
       <p className=" mb-5 cursor-pointer py-2">{questions[qNO+1]?.questionName}</p>
       <p className=" font-bold text-xl mb-3 md:mb-7">Answer</p>
-      <div className="w-full h-[100px] mb-5 border border-black p-3">
+      <div className="w-full h-[100px] mb-5 border border-black p-3 ">
         {findAnswerHandler
           ? findAnswerHandler?.answerResult
           : "There is no result"}

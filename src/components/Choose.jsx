@@ -91,13 +91,13 @@ const Choose = () => {
       <p className="md:hidden font-bold text-3xl text-center mb-3 mx-auto">
         Choose One
       </p>
-      <div className="w-full md:w-[450px] lg:w-[630px] 2xl:w-[720px] flex flex-wrap justify-center items-center mx-auto">
+      <div className="w-full md:w-[450px] lg:w-[540px] 2xl:w-[720px] flex flex-wrap justify-center items-center mx-auto">
         {nums?.map((n, index) => {
           return (
             <div
               key={index}
               onClick={() => ansHandler(n)}
-              className="w-[35px] h-[35px] md:w-[50px] md:h-[50px] lg:w-[70px] lg:h-[70px] 2xl:w-[80px] 2xl:h-[80px] bg-black text-white hover:bg-zinc-900 border border-gray-400 flex justify-center items-center cursor-pointer"
+              className="w-[35px] h-[35px] md:w-[50px] md:h-[50px] lg:w-[60px] lg:h-[60px] 2xl:w-[80px] 2xl:h-[80px] bg-black text-white hover:bg-zinc-900 border border-gray-400 flex justify-center items-center cursor-pointer"
             >
               {n}
             </div>
